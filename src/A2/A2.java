@@ -48,6 +48,7 @@ public class A2 {
 		month.selectByValue("12");
 		Select year=new Select(driver.findElement(By.name("birthday_year")));
 		year.selectByValue("1993");
+		System.out.print("Hi");
 				
 		//select from radio buttons
 		WebElement radio1=driver.findElement(By.id("u_0_6"));
